@@ -4,18 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Scribdapp</title>
+    <link rel="stylesheet" href="indexstyle.css">
   </head>
   <body>
-    <div id="app"></div>
-    <h1>
-      Welcome
-    </h1>
-    <form id="linkinput">
-      <label for="input">insert link:</label>
-      <input type="text" id="input" name="input"><br><br>
-      <input type = "button" onclick = "getlink()" value = "submit"> 
-    </form>
-    <h2 id="linkresult"></h2>
-    <script src="index.js"></script>
+    <div id="app" class="container">
+      <h1 class="header1">
+        Welcome
+      </h1>
+      <form id="linkinput" class="form">
+        <label for="input" class="text">insert link:</label>
+        <input type="text" id="input" name="input" class="inputbox"><br><br>
+        <input type = "button" onclick = "getlink()" value = "Submit" class="button"> 
+      </form>
+      <h2 id="linkresult" class="text"></h2>
+      <script src="index.js"></script>
+  </div>
   </body>
 </html>
